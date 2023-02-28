@@ -112,3 +112,23 @@ const Div = styled.div`
         text-align: start;
     }
 `;
+const Button = styled.button`
+    background-color: #062B6F;
+    width: 400px;
+    height: 60px;
+    border-radius: 20px 10px 10px 0px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+`;
+const P = styled(Link)`
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    :hover{
+      color: silver;
+    }
+`;
