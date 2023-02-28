@@ -5,6 +5,7 @@ import blue from "../Assets/blue.png"
 import purple from "../Assets/purple.png"
 import pink from "../Assets/pink.png"
 import logo from "../Assets/logo-white.svg";
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
@@ -35,7 +36,7 @@ const Login = () => {
                     </Wrap>
                 </RegisterCard>
                 <P to = "/register">Don't have an account? Register</P>
-                <P>Forgot Password?</P>
+                <P to = "/">Forgot Password?</P>
             </Wrapper>
         </Container>
     </div>
