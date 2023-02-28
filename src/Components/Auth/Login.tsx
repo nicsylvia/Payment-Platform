@@ -93,3 +93,22 @@ const Form = styled.form`
 margin-top: 20px;
     /* background-color: red; */
 `;
+const Input = styled.input`
+    width: calc(400px - 15px);
+    height: 70px;
+    background-color: #EDF2F7;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+`;
+const Div = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 0px;
+    h4{
+        margin: 0;
+        margin-bottom: 5px;
+        text-align: start;
+    }
+`;
