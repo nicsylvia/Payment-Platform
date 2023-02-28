@@ -65,3 +65,31 @@ const Wrapper = styled.div`
     justify-content: center;
     flex-direction: column;
 `;
+const Logo = styled.div`
+    margin: 20px 0px 40px 0px;
+`;
+const MyLogo = styled.img``;
+const RegisterCard = styled.div`
+    width: 480px;
+    /* height: 600px; */
+    padding: 0px 0px 20px 0px;
+    background-color: white;
+    border-radius: 20px 20px 20px 0px;
+    display: flex;
+    justify-content: center;
+`;
+const Wrap = styled.div`
+    width: 400px;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+    h2{
+        color: #062863;
+        margin: 0;
+    }
+`;
+const Form = styled.form`
+margin-top: 20px;
+    /* background-color: red; */
+`;
