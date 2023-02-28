@@ -19,12 +19,46 @@ const SignIn = () => {
                         <p>Welcome to the future of Savings & Investments</p>
                         <Form>
                             <Div>
-                                <h3>Full Name</h3>
-                                <Input placeholder = "Full Name" />
+                                <h4>Full Name</h4>
+                                <Input placeholder = "Full Name" type="text" />
                             </Div>
+                            <Div>
+                                <h4>Email Address</h4>
+                                <Input placeholder = "Email Address" type = "email" />
+                            </Div>
+                            <Div>
+                                <h4>Phone Number</h4>
+                                <Input placeholder = "Phone Number" type="number" />
+                            </Div>
+                            <Div>
+                                <h4>Password</h4>
+                                <Input placeholder = "Password" type="Password" />
+                            </Div>
+                            <Div>
+                                <h4>Referrer Phone or Promo Code (Optional)</h4>
+                                <Input placeholder = "Referrer Phone or Code" />
+                            </Div>
+                            <Div>
+                                <h4>How Did You Hear About Us? (Optional)</h4>
+                                <select>
+                                    <option>Click to Select</option>
+                                    <option>Facebook</option>
+                                    <option>Twitter</option>
+                                    <option>Instagram</option>
+                                    <option>Friend/Family/Co Worker Referrer</option>
+                                    <option>Google Search</option>
+                                    <option>Google PlayStore</option>
+                                    <option>Online Blog</option>
+                                    <option>Local Newspaper</option>
+                                    <option>At an event</option>
+                                    <option>Others</option>
+                                </select>
+                            </Div>
+                            <Button>CREATE ACCOUNT</Button>
                         </Form>
                     </Wrap>
                 </RegisterCard>
+                <P>Already have an account? Log In</P>
             </Wrapper>
         </Container>
     </div>
@@ -48,30 +82,29 @@ const Container = styled.div`
 const Wrapper = styled.div`
     width: 40%;
     padding: 20px 0px 30px 0px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 `;
 const Logo = styled.div`
-    margin-top: 20px;
+    margin: 20px 0px 40px 0px;
 `;
 const MyLogo = styled.img``;
 const RegisterCard = styled.div`
-    width: 450px;
-    height: 600px;
-    /* padding: 10px 0px 20px 0px; */
-    background-color: blue;
+    width: 550px;
+    /* height: 600px; */
+    padding: 10px 0px 20px 0px;
+    background-color: white;
     border-radius: 20px 20px 20px 0px;
     display: flex;
     justify-content: center;
 `;
 const Wrap = styled.div`
-    width: 400px;
+    width: 450px;
     padding: 10px 0px 10px 0px;
-    /* padding: 10px 0px 20px 0px; */
-    background-color: white;
+    /* background-color: white; */
     margin-top: 50px;
     text-align: center;
     h2{
@@ -80,18 +113,51 @@ const Wrap = styled.div`
     }
 `;
 const Form = styled.form`
-    background-color: red;
+margin-top: 30px;
+    /* background-color: red; */
 `;
 const Input = styled.input`
-    width: 400px;
-    height: 50px;
+    width: calc(450px - 15px);
+    height: 70px;
     background-color: #EDF2F7;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
 `;
 const Div = styled.div`
     display: flex;
     flex-direction: column;
-    h3{
+    margin: 10px 0px 10px 0px;
+    h4{
         margin: 0;
+        margin-bottom: 5px;
         text-align: start;
     }
+    select{
+    width: 450px;
+    height: 70px;
+    background-color: #EDF2F7;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    }
+`;
+const Button = styled.button`
+    background-color: #062B6F;
+    width: 450px;
+    height: 60px;
+    border-radius: 20px 10px 10px 0px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+`;
+const P = styled.div`
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
 `;
