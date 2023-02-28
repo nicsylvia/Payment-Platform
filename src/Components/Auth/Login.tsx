@@ -12,7 +12,7 @@ const Login = () => {
     <div>
         <Container>
             <Wrapper>
-                <Logo>
+                <Logo to = "/">
                     <MyLogo src={logo} />
                 </Logo>
                 <RegisterCard>
@@ -66,7 +66,7 @@ const Wrapper = styled.div`
     justify-content: center;
     flex-direction: column;
 `;
-const Logo = styled.div`
+const Logo = styled(Link)`
     margin: 20px 0px 40px 0px;
 `;
 const MyLogo = styled.img``;
@@ -129,6 +129,7 @@ const P = styled(Link)`
     cursor: pointer;
     margin-top: 20px;
     color: white;
+    text-decoration: none;
     :hover{
       color: silver;
     }
