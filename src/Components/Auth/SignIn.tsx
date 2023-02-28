@@ -58,7 +58,7 @@ const SignIn = () => {
                         </Form>
                     </Wrap>
                 </RegisterCard>
-                <P>Already have an account? Log In</P>
+                <P to = "/login">Already have an account? Log In</P>
             </Wrapper>
         </Container>
     </div>
@@ -156,7 +156,7 @@ const Button = styled.button`
     font-size: 18px;
     font-weight: bold;
 `;
-const P = styled.div`
+const P = styled(Link)`
     cursor: pointer;
     margin-top: 20px;
     color: white;
