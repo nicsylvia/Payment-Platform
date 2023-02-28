@@ -2,6 +2,7 @@ import React from 'react'
 import Login from '../Auth/Login'
 import SignIn from '../Auth/SignIn'
 import { useRoutes } from "react-router-dom";
+import HomeScreen from '../HomeScreen/HomeScreen';
 
 const AllRoutes = () => {
 
@@ -13,6 +14,10 @@ const AllRoutes = () => {
         {
             path: "/login",
             element: <Login />
+        },
+        {
+          path: "/",
+          element: <HomeScreen />
         }
     ])
   return element

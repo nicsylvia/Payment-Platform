@@ -1,13 +1,14 @@
 import React from 'react'
 import AllRoutes from './Components/AllRoutes/AllRoutes'
-import Login from './Components/Auth/Login'
-import SignIn from './Components/Auth/SignIn'
+import Footer from './Components/Footer/Footer'
+import Header from './Components/Header/Header'
 
 const App = () => {
   return (
     <div>
-      {/* <AllRoutes /> */}
-      <Login />
+      <Header />
+      <AllRoutes />
+      <Footer />
     </div>
   )
 }
