@@ -15,6 +15,7 @@ const Header = () => {
   }
 
   window.addEventListener("scroll",changeHeaderColor)
+
   return (
     <div>
       <Container boxShadow={show ? "value":""} id="header">
@@ -33,10 +34,10 @@ const Header = () => {
           </NavLink>
 
           <ButtonHold>
-            <Button to="login" bg="white" cl="black" wd="100px" bcc='whitesmoke' ccl='#0D5ED4' >
+            <Button to="/login" bg="white" cl="black" wd="100px" bcc='whitesmoke' ccl='#0D5ED4' >
               Sign In
             </Button>
-             <Button to="register" bg="black" cl="white" wd="220px" bcc='#0D5ED4' ccl=''>
+             <Button to="/register" bg="black" cl="white" wd="220px" bcc='#0D5ED4' ccl=''>
                Create Free Account
              </Button>
           </ButtonHold>
@@ -102,8 +103,9 @@ object-fit: cover;
 `
 
 const Logo = styled(Link)`
-height:75px;
-width: 300px;
+height: 50px;
+width: 200px;
+/* background-color: red; */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -121,7 +123,7 @@ width: 90%;
 const Container = styled.div<{boxShadow :string}>`
 width: 100%;
 /* background-color: red; */
-height: 90px;
+height: 70px;
 justify-content: center;
 display: flex;
 align-items: center;

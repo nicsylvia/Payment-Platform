@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '../Header/Header';
+import Hero from './Hero';
 
 const HomeScreen = () => {
   return (
-    <div>HomeScreen</div>
+    <div>
+      <Header />
+      <Hero />
+    </div>
   )
 }
 

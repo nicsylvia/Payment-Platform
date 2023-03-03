@@ -1,0 +1,12 @@
+import React from "react";
+import styled from "styled-components";
+import one from "../../Assets/one.png";
+import two from "../../Assets/two.png";
+import three from "../../Assets/three.png";
+import four from "../../Assets/four.png";
+import { AiFillApple } from "react-icons/ai";
+import { FaGooglePlay } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import appleIcon from "../../Assets/apple-icon.svg";
+import googleIcon from "../../Assets/google-icon.svg";
+import nice from "../../Assets/one.png";
