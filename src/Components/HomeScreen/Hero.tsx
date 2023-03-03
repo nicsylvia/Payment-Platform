@@ -9,7 +9,7 @@ import { FaGooglePlay } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import appleIcon from "../Assets/apple-icon.svg";
 import googleIcon from "../Assets/google-icon.svg";
-import nice from "../Assets/one.png";
+import nice from "../Assets/heroImg.png";
 
 const Hero = () => {
     return (
@@ -44,8 +44,8 @@ const Hero = () => {
             <Second>
               <One src={nice} />
               <Two src={two} />
-              <Three src={three} />
-              <Four src={four} />
+              <Three src={four} />
+              <Four src={three} />
             </Second>
           </Wrapper>
         </Container>
@@ -124,6 +124,7 @@ const Buttons = styled.button`
   border-radius: 10px;
   cursor: pointer;
   outline: none;
+  transition: all 350ms;
 
   :hover {
     border: 0.5px solid darkgray;
