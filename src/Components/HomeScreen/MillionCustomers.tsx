@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import Chats from "./Chats";
-import lonely from "../../Assets/lonely.jpg";
-import slider1 from "../../Assets/slider1.jpg";
-import shazam from "../../Assets/shazam.jpg";
-import me from "../../Assets/me.jpeg";
+import lonely from "../Assets/lonely.jpg";
+import slider1 from "../Assets/slider1.jpg";
+import shazam from "../Assets/shazam.jpg";
+import me from "../Assets/me.jpeg";
 import { Link } from "react-router-dom";
-import appleIcon from "../../Assets/apple-icon.svg";
-import googleIcon from "../../Assets/google-icon.svg";
+import appleIcon from "../Assets/apple-icon.svg";
+import googleIcon from "../Assets/google-icon.svg";
 
 const MillionCustomers = () => {
     return (
@@ -25,19 +25,19 @@ const MillionCustomers = () => {
                 <Chats
                   date="Thursday, 2nd of March 2023 by 1:29 PM"
                   image={slider1}
-                  message="Hello Piggy Users,I'm Valerian  and more than elated to let you know that for the first time in my existence I’m able to save over 200k because I used the piggy safelock. Growing up in the rural parts of Lagos is one thing, steadily working to bring myself out is another thing. I was able to make not only first hundred but my second with piggyvest. You can do it too! Cheers😊😊 "
+                  message="Hello Piggy Users,I'm Sylvia  and more than elated to let you know that for the first time in my existence I’m able to save over 200k because I used the piggy safelock. Growing up in the rural parts of Lagos is one thing, steadily working to bring myself out is another thing. I was able to make not only first hundred but my second with piggyvest. You can do it too! Cheers😊😊 "
                   name=" Pedro"
                 />
                 <Chats
                   date="Friday, 3rd of March 2023 by 1:29 PM"
                   image={shazam}
-                  message="Hello Piggy Users,I'm Valerian  and more than elated to let you know that for the first time in my existence I’m able to save over 200k because I used the piggy safelock. Growing up in the rural parts of Lagos is one thing, steadily working to bring myself out is another thing. I was able to make not only first hundred but my second with piggyvest. You can do it too! Cheers😊😊 "
+                  message="Hello Piggy Users,I'm Nicole  and more than elated to let you know that for the first time in my existence I’m able to save over 200k because I used the piggy safelock. Growing up in the rural parts of Lagos is one thing, steadily working to bring myself out is another thing. I was able to make not only first hundred but my second with piggyvest. You can do it too! Cheers😊😊 "
                   name=" Divine Peace"
                 />
                 <Chats
                   date="Saturday, 24th of March 2023 by 1:29 PM"
                   image={lonely}
-                  message="Hello Piggy Users,I'm Valerian  and more than elated to let you know that for the first time in my existence I’m able to save over 200k because I used the piggy safelock. Growing up in the rural parts of Lagos is one thing, steadily working to bring myself out is another thing. I was able to make not only first hundred but my second with piggyvest. You can do it too! Cheers😊😊 "
+                  message="Hello Piggy Users,I'm Attracta  and more than elated to let you know that for the first time in my existence I’m able to save over 200k because I used the piggy safelock. Growing up in the rural parts of Lagos is one thing, steadily working to bring myself out is another thing. I was able to make not only first hundred but my second with piggyvest. You can do it too! Cheers😊😊 "
                   name=" Judtonia"
                 />
               </ChatHold>

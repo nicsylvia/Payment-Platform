@@ -31,7 +31,10 @@ const Login = () => {
                                 <Input required type="Password" />
                             </Div>
                             
-                            <Button>LOG IN</Button>
+                            <But to = "/dashboard-sylviavest.com">
+                            <Button >LOG IN</Button>
+                            </But>
+
                         </Form>
                     </Wrap>
                 </RegisterCard>
@@ -112,6 +115,9 @@ const Div = styled.div`
         margin-bottom: 5px;
         text-align: start;
     }
+`;
+const But = styled(Link)`
+    cursor: pointer;
 `;
 const Button = styled.button`
     background-color: #062B6F;
