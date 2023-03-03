@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import styled from "styled-components";
 
-const DashBoard = () => {
+const Dashboard = () => {
   return (
-    <div>DashBoard</div>
-  )
-}
+    <Container>
+      
+    </Container>
+  );
+};
 
-export default DashBoard
+export default Dashboard;
+const Container = styled.div`
+  display: flex;
+`;

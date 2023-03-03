@@ -130,6 +130,7 @@ const Button = styled.button`
     margin-top: 50px;
     font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
 `;
 const P = styled(Link)`
     cursor: pointer;
