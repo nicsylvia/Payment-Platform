@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import image from "../../Assets/one.png";
+import image from "../Assets/bro2.jpg";
 import { BsArrowRight } from "react-icons/bs";
 
 const SaverForTheMonth = () => {
@@ -28,7 +28,7 @@ const SaverForTheMonth = () => {
               <Icon>
                 <BsArrowRight />
               </Icon>
-              <a href="https://github.com/Dc-Valerian">Meet Dc Valerian</a>
+              <a href="https://github.com/nicsylvia">Meet Nic Sylvia</a>
             </Line>
           </First>
           <Second>

@@ -1,0 +1,10 @@
+import React from "react";
+import styled from "styled-components";
+import Chats from "./Chats";
+import lonely from "../../Assets/lonely.jpg";
+import slider1 from "../../Assets/slider1.jpg";
+import shazam from "../../Assets/shazam.jpg";
+import me from "../../Assets/me.jpeg";
+import { Link } from "react-router-dom";
+import appleIcon from "../../Assets/apple-icon.svg";
+import googleIcon from "../../Assets/google-icon.svg";
