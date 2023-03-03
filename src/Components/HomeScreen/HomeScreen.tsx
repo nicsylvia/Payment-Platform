@@ -8,7 +8,14 @@ const HomeScreen = () => {
     <div>
       <Header />
       <Hero />
+      <br />
+      <br />
+      <br />
+      <br />
       <Security />
+      <br />
+      <br />
+      <br />
     </div>
   )
 }
