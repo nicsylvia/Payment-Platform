@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Header/Header';
+import BuildSavings from './BuildSavings';
 import Hero from './Hero';
 import Security from './Security';
 
@@ -16,6 +17,7 @@ const HomeScreen = () => {
       <br />
       <br />
       <br />
+      <BuildSavings />
     </div>
   )
 }
