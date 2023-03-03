@@ -42,4 +42,57 @@ const CardProps:React.FC<props>= ({
   )
 }
 
-export default CardProps
+export default CardProps;
+
+const Text = styled.div`
+color: #484848;
+margin-left: 10px;
+font-weight: 500;
+`
+
+const Icon = styled.div<{bc:string ;cl:string}>`
+display: flex;
+width: 40px;
+height: 40px;
+color: ${(props)=>props.cl};
+background-color: ${(props)=>props.bc};
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+`
+
+const Image = styled.img`
+width: 50px;
+margin-bottom: 20px;
+`
+
+const Container = styled.div`
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 320px;
+border-radius: 20px;
+background-color:#F9F9F9;
+padding-left: 30px;
+height: 320px;
+margin: 30px;
+cursor: pointer;
+
+span{
+    font-weight: bold;
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+ :hover{
+    nav{
+        margin-left: 15px;
+        transition: all 400ms;
+        transform: scale(0.98);
+    }
+ }
+
+`
