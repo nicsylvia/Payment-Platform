@@ -54,3 +54,157 @@ const Hero = () => {
   };
   
   export default Hero;
+
+  const Icon = styled.div`
+  margin: 5px;
+  height: 20px;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: black;
+`;
+
+const Second = styled.div`
+  position: relative;
+  /* background-color: red; */
+  width: 40%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+const Four = styled.img`
+  position: absolute;
+  z-index: 2;
+  object-fit: cover;
+  height: 80px;
+  width: 250px;
+  left: -150px;
+  top: 250px;
+`;
+
+const Three = styled.img`
+  position: absolute;
+  height: 90px;
+  width: 250px;
+  z-index: 2;
+  object-fit: cover;
+  right: 9%;
+  bottom: 20%;
+`;
+
+const Two = styled.img`
+  position: absolute;
+  /* z-index: 3; */
+`;
+
+const One = styled.img`
+  position: absolute;
+  left: 2px;
+  z-index: 1;
+  width: 68%;
+  height: 78%;
+  object-fit: cover;
+  border-radius: 20px;
+`;
+
+const Buttons = styled.button`
+  margin: 5px;
+  height: 50px;
+  width: 180px;
+  border: 1px solid gray;
+  background-color: white;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+
+  :hover {
+    border: 0.5px solid darkgray;
+    margin-top: -3px;
+  }
+`;
+
+const Button = styled(Link)`
+  height: 50px;
+  width: 220px;
+  background-color: #0c1825;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 400ms;
+  border: 1px solid black;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  :hover {
+    background-color: #0d5ed4;
+    border: 1px solid blue;
+    color: white;
+    transform: scale(0.98);
+  }
+`;
+
+const ButtonHold = styled.div`
+  display: flex;
+  margin: 5px;
+`;
+
+const Sub = styled.div`
+  color: #5a3535;
+  margin: 15px;
+  font-family: "DM Sans";
+  font-size: 20px;
+  vertical-align: baseline;
+  line-height: 30px;
+  text-decoration: none solid rgb(53, 53, 53);
+  font-weight: 500;
+  color: rgb(53, 53, 53);
+`;
+
+const Img = styled.img``;
+
+const Title = styled.div`
+  font-size: 4.6em;
+  font-weight: 500;
+  line-height: 70px;
+  color: rgb(12, 24, 37);
+`;
+
+const First = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const Wrapper = styled.div`
+  /* background-color: navajowhite; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 100%;
+  margin-top: 90px;
+`;
+
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: red; */
+`;
