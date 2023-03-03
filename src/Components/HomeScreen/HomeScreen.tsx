@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import BuildSavings from './BuildSavings';
 import Hero from './Hero';
 import Investment from './Investment';
+import SaverForTheMonth from './SaverForTheMonth';
 import Security from './Security';
 
 const HomeScreen = () => {
@@ -20,6 +21,7 @@ const HomeScreen = () => {
       <br />
       <BuildSavings />
       <Investment />
+      <SaverForTheMonth />
     </div>
   )
 }
