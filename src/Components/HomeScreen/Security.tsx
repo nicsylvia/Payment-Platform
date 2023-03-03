@@ -31,7 +31,8 @@ const Security = () => {
 
 export default Security;
 
-argin-top: 6px;
+const Icon = styled.div`
+margin-top: 6px;
 font-size: 10px;
 `
 
