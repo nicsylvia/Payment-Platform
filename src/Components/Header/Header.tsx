@@ -45,4 +45,32 @@ const Header = () => {
     </div>
   )
 }
-export default Header
+export default Header;
+
+const Button = styled(Link)<{bg:string; cl:string; wd:string; bcc:string ;ccl:string}>`
+margin: 5px;
+height: 50px;
+width: ${(props)=>props.wd};
+background-color:${(props)=>props.bg};
+color:${(props)=>props.cl};
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+outline: none;
+border: none;
+font-size: 20px;
+font-weight:500;
+cursor: pointer;
+text-decoration: none;
+transition: all 400ms;
+border: 1px solid black;
+
+
+:hover{
+  background-color: ${(props)=>props.bcc};
+  border: 1px solid blue;
+  color: ${(props)=>props.ccl};
+  transform: scale(0.98);
+}
+`
