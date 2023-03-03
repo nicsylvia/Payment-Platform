@@ -73,4 +73,62 @@ border: 1px solid black;
   color: ${(props)=>props.ccl};
   transform: scale(0.98);
 }
+`;
+const ButtonHold = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+`
+
+const Nav = styled(Link)`
+margin: 5px;
+color: black;
+text-decoration: none;
+font-size: 20px;
+font-weight: 600;
+`
+
+const NavLink = styled.div`
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 35%;
+`
+
+const Img = styled.img`
+width:80%;
+height:60%;
+object-fit: cover;
+`
+
+const Logo = styled(Link)`
+height:75px;
+width: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+`
+
+const Wrapper = styled.div`
+/* background-color: blueviolet; */
+display: flex;
+justify-content: space-around;
+width: 90%;
+
+`
+
+const Container = styled.div<{boxShadow :string}>`
+width: 100%;
+/* background-color: red; */
+height: 90px;
+justify-content: center;
+display: flex;
+align-items: center;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+		rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+position: fixed;
+top: 1;
+background-color: #FFFFFF;
+z-index: 3;
 `
